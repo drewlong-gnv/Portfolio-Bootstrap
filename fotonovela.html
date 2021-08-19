@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BS Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/yvn7zqq.css" />
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      .navbar,
+      .navbar-dark,
+      .bg-dark {
+        background-color: #1b4259 !important;
+      }
+      .jumbotron {
+        width: 100%;
+        color: #f8f8f8;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      /* .container-fluid {
+        background-color: #1b4259;
+      } */
+      .card {
+        border: none;
+        max-width: 400px;
+      }
+      .card-header,
+      .card-footer {
+        background-color: white;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+      <div class="container pt-1 pb-1 d-flex justify-content-between">
+        <a href="#" class="navbar-brand"
+          ><img src="https://drive.google.com/uc?id=1BITCN3NZOf_AmTherrxWlsj3_0eDEF0e" style="max-width:60px;" />Drew Long</a
+        >
+
+        <div class="collapse navbar-collapse justify-content-end" id="myTogglerNav">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">Work</a> <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Writing</a>
+          </div>
+          <!-- navbar -->
+        </div>
+        <!-- collapse -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#myTogglerNav"
+          aria-controls="myTogglerNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="position: absolute; margin: 10px; right: 0; top: 0;"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <!-- end container -->
+    </nav>
+    <!-- end nav -->
+    <div class="hero-fotonovela">
+      <div class="container-fluid">
+        <div class="row justify-content-sm-center pt-5 mb-5">
+          <div class="col-sm-10 col-md-8 col-xl-8">
+            <h1 class="display-1 pb-2">Fotonovelas for Health Literacy</h1>
+            <p class="card-subtitle text-muted pb-2">UX Design, UX Research</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end hero -->
+    <main>
+      <div id="top-level" class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8">
+            <h1>Background</h1>
+            <p>
+              The fotonovela is a traditional narrative medium similar to a comic book that uses photographs to tell dramatic
+              stories with a morale. The Rural Women’s Health Project has used printed fotonovelas for thirty years in community
+              health education.
+            </p>
+            <p>
+              On this volunteer project, I collaborated with the RWHP on an end-to-end product design for a digital fotonovela.
+              My role was User Researcher and UX Designer.
+            </p>
+            <h1 class="mt-4">Problem</h1>
+            <p>
+              The target users are Hispanic immigrants who seek basic health literacy online to access medical services in rural
+              north-central Florida. These individuals face distinct challenges, including low literacy, limited English skills,
+              and limited internet access.
+            </p>
+            <p class="text-decoration-underline">
+              How can we create a digital fotonovela that is engaging, informative, and accessible to these users?
+            </p>
+            <h1 class="mt-4">Solution</h1>
+            <p>I created a mobile prototype based on user research, and I iterated on the design after usability testing.</p>
+            <p>The completed prototype includes:</p>
+            <ul>
+              <li>mobile-first design pattern;</li>
+              <li>fully bilingual site design and UI elements;</li>
+              <li>integrated speech-to-text within user interface.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="approach">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8">
+              <h1 class="white-text">Approach</h1>
+              <div class="row justify-content-center">
+                <div class="col col-sm-8">
+                  <img class="timeline" src="img/fotonovela/project-timeline-vert-1.svg" alt="project timeline" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Begin "Discovery" section -->
+      <div id="discovery">
+        <div class="section-heading mt-3 mb-3">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-10 col-lg-8"><h1>Discovery</h1></div>
+            </div>
+          </div>
+        </div>
+        <div class="container mb-5 mt-3">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8">
+              <h2>Research Methodology and Challenges</h2>
+              <p>
+                I established the problem based on existing knowledge of the target users from the client. I broke this problem
+                into smaller objectives and narrowly defined research questions.
+              </p>
+              <figure class="figure">
+                <img
+                  src="img/fotonovela/research-obj.png"
+                  class="figure-img img-fluid"
+                  alt="research problem, objectives and questions"
+                />
+                <figcaption class="figure-caption">
+                  The problem is broken into research objectives and specific research questions.
+                </figcaption>
+              </figure>
+              <p>Real world challenges complicated my plan for contextual inquiry, user survey and interview:</p>
+              <ul>
+                <li>onset of COVID-related health risk to in-person contact,</li>
+                <li>lack of insider knowledge or connections, and</li>
+                <li>physical and cultural distance forced a revised approach.</li>
+              </ul>
+              <h3>Insights</h3>
+              <p>
+                I had to scrap contextual inquiry and user surveys. I modified my approach to incorporate secondary research and
+                non-primary users as participants. Along the way, I learned valuable lessons about recruiting.
+              </p>
+              <h2>Competitive analysis</h2>
+              <p>
+                A competitive analysis revealed few existing products of similar design and purpose. However, these examples
+                served to inspire and shape the business requirements and overall concept for this product.
+              </p>
+              <div class="row mb-3">
+                <div class="col">
+                  <h5>Market analysis</h5>
+                  <img src="img/fotonovela/market-analysis.png" class="img-fluid" alt="..." />
+                </div>
+              </div>
+              <!-- <div class="row mb-3">
+                <div class="col-lg-6">
+                  <h5>SWOT Analysis 1</h5>
+                  <img src="img/fotonovela/swot-sanasana.png" class="img-fluid" alt="..." />
+                </div>
+                <div class="col-lg-6">
+                  <h5>SWOT Analysis 2</h5>
+                  <img src="img/fotonovela/swot-desaparecidos.png" class="img-fluid" alt="" />
+                </div>
+              </div> -->
+              <div class="row mb-3">
+                <div class="col-lg-12">
+                  <h5>UX Competitive Analysis</h5>
+                  <img src="img/fotonovela/UX-competitive-analysis.png" class="img-fluid" alt="..." />
+                </div>
+              </div>
+              <h2 class="mt-5">Project strategy and business requirements</h2>
+              <p>Based on the market research, I created a business requirements document in which I articulated:</p>
+              <ul>
+                <li>the overall concept for the project,</li>
+                <li>the scope of work,</li>
+                <li>the functional requirements,</li>
+                <li>and SMART business objectives of the project.</li>
+              </ul>
+              <p>
+                I established a delivery schedule (which proved to be totally unrealistic), but it was impactful learning as an
+                emerging UX professional to compare actual time spent vs. my expectations.
+              </p>
+              <!-- <div class="row mb-3">
+                <div class="col">
+                  <h5>Business Objectives</h5>
+                  <img src="img/fotonovela/business-objectives.png" class="img-fluid" alt="..." />
+                </div>
+              </div> -->
+              <h2 class="mt-5">A flexible approach to user interviews</h2>
+              <p>
+                The difficulty of contacting primary users forced me to modify my approach to the interviews. I incorporated
+                five secondary users to gain additional context.
+              </p>
+              <div class="row mb-3">
+                <div class="col-lg-9">
+                  <h5>User Interviews</h5>
+                  <img src="img/fotonovela/table-user-interviews.png" class="img-fluid" alt="..." />
+                </div>
+              </div>
+              <p>
+                Through desk research, I collected important demographic and technology usage data on superset populations that
+                overlapped with my small subset target population (for which no existing quantitative research was available).
+              </p>
+              <div class="row mb-5">
+                <div class="col-lg-9">
+                  <h5>Secondary Research</h5>
+                  <img src="img/fotonovela/table-secondary-research.png" class="img-fluid" alt="..." />
+                </div>
+              </div>
+              <h2>Research analysis</h2>
+              <h4 class="text-muted">Research goal</h4>
+              <ul>
+                <li>
+                  Characterize users’ online activity, device usage, and preferences when searching for health-related
+                  information
+                </li>
+                <li>Reveal qualitative insights about user needs, motivations, attitudes</li>
+              </ul>
+              <h4 class="text-muted">Findings</h4>
+              <ul>
+                <li>
+                  Hispanic residents in rural Levy County have limited access to internet due to multiple factors: cellular
+                  network, data limits, sharing device with other family members, work hours.
+                </li>
+                <li>
+                  Hispanic residents in rural Levy County (and nationwide) prefer Spanish language and/or bilingual content.
+                </li>
+                <li>
+                  Hispanic residents in rural Levy County generally find the English language as a significant barrier to
+                  information accessibility online.
+                </li>
+                <li>
+                  Hispanic residents in Levy County (and nationwide) are significant consumers and sharers on social media.
+                </li>
+              </ul>
+              <h4 class="text-muted">Insights</h4>
+              <ul>
+                <li>A mobile-first website would serve time and data-limited users better than a mobile app.</li>
+                <li>Bilingual content increases accessibility and engagement to wider audience</li>
+                <li>
+                  A minimalist approach to site design - simplified navigation and interface, reduced animations and
+                  enhancements - will maximize accessibility to time and data-limited users.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- End Discovery section -->
+        <!-- Begin "Define" section -->
+      </div>
+      <div id="define">
+        <div class="section-heading mb-3">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-10 col-lg-8"><h1>Define</h1></div>
+            </div>
+          </div>
+        </div>
+        <div class="container mb-5">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8">
+              <h2>User Personas</h2>
+              <p>I built two user personas based on analysis of foundational research.</p>
+              <div class="row mb-3">
+                <div class="col"><img src="img/fotonovela/persona-isaac.png" class="img-fluid" alt="..." /></div>
+              </div>
+              <div class="row mb-5">
+                <div class="col"><img src="img/fotonovela/persona-astrid.png" class="img-fluid" alt="..." /></div>
+              </div>
+              <h2>User Journey Maps and User Flow</h2>
+              <p>
+                Based on these personas, I created user journey maps and user flows. These artifacts in turn informed the
+                interaction design at multiple breakpoints with a primary focus on the mobile breakpoint.
+              </p>
+              <div class="row mb-3">
+                <div class="col"><img src="img/fotonovela/discovery-journeymap.png" class="img-fluid" alt="..." /></div>
+              </div>
+              <p>
+                I recognize the visual appeal of the user journey map as a deliverable, but I did not find that its utility
+                justified the effort involved. As a UX team of one, I would find user scenarios and user flows, which are
+                simpler to produce and easier to revise, more valuable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End "Define" section, 
+        Begin "Develop" section -->
+      <div id="develop">
+        <div class="section-heading mb-3">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-10 col-lg-8"><h1>Develop</h1></div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8">
+              <h2>Card sorting and site mapping</h2>
+              <p>
+                I employed cart sorting to design the information architecture of the site. Five participants sorted twenty (20)
+                cards online (optimalworkshop.com) into three categories:&nbsp;
+              </p>
+              <ol>
+                <li>&ldquo;home page&rdquo;,&nbsp;</li>
+                <li>&ldquo;individual chapters in home page&rdquo;,&nbsp;</li>
+                <li>&ldquo;other site pages (top level navigation)&rdquo;.</li>
+              </ol>
+              <p>
+                Results suggested that it made most sense to simplify homepage content and assign remaining content to other
+                site pages accessible from the top-level navigation.
+              </p>
+              <div class="row mb-5">
+                <div class="col"><img src="img/fotonovela/card-sorting.png" class="img-fluid" alt="..." /></div>
+              </div>
+              <h2>Wireframes</h2>
+              <p>
+                I created low fidelity paper wireframes - not by drawing each individually, but by creating modular elements and
+                moving them around a template. As a lefty without great handwriting or drawing skills, this allowed me to
+                quickly redraft and consider different layouts.
+              </p>
+              <div class="row mb-3">
+                <div class="col"><img src="img/fotonovela/lo-fi-wireframes.png" class="img-fluid" alt="..." /></div>
+              </div>
+              <p>Mid-fidelity wireframes were a leap forward.</p>
+              <div class="row mb-5">
+                <div class="col"><img src="img/fotonovela/mid-fidelity-wireframes.png" class="img-fluid" alt="..." /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End "Develop" section, 
+      Begin "Validate" section -->
+      <div id="validate">
+        <div class="section-heading mb-3">
+          <div class="container mb-5">
+            <div class="row justify-content-center">
+              <div class="col-10 col-lg-8"><h1>Validate</h1></div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8">
+              <h2>Usability testing</h2>
+              <p>
+                I faced the same recruitment-related and contextual challenges in usability testing as I had previously in the
+                discovery research. In response, I opted for:&nbsp;
+              </p>
+              <ul>
+                <li>remote moderated testing</li>
+                <li>
+                  six (6) secondary users as participants (individuals with direct cultural and/or professional knowledge of
+                  target users)&nbsp;
+                </li>
+              </ul>
+              <h3>Goals</h3>
+              <ol>
+                <li>Determine usability problem areas, focusing on the navigation and accessibility features</li>
+                <li>Assess learnability and satisfaction for first time users</li>
+                <li>Identify opportunities for improvement based on participant feedback</li>
+              </ol>
+              <h3>Test Objectives</h3>
+              <ol>
+                <li>Assess the learnability of the site&rsquo;s navigational scheme&nbsp;</li>
+                <li>Assess learnability of the site&rsquo;s accessibility features: the language and audio settings</li>
+                <li>Identify problem areas and opportunities related to the site&rsquo;s accessibility features</li>
+              </ol>
+              <div class="row mb-3 mt-5">
+                <div class="col">
+                  <h5>Usability Testing Report</h5>
+                  <img src="img/fotonovela/usability-report.png" class="img-fluid" alt="..." />
+                </div>
+              </div>
+              <div class="row mb-5">
+                <div class="col">
+                  <h5>Artifact: Rainbow spreadsheet</h5>
+                  <img src="img/fotonovela/rainbow-spreadsheet.png" class="img-fluid" alt="..." />
+                </div>
+              </div>
+              <h2>Preference Testing</h2>
+              <p>
+                I conducted a quick round of preference testing to assess the best location to place the language selection
+                toggle. 83% of participants preferred the top placement, which sealed the deal for me.
+              </p>
+              <div class="row mb-3">
+                <div class="col">
+                  <h5>Usability Testing Report</h5>
+                  <img src="img/fotonovela/preference-testing.png" class="img-fluid" alt="..." />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End "Validate" section, 
+        Begin "Develop-Pt2" section -->
+      <div id="develop-pt2">
+        <div class="section-heading mb-3">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-10 col-lg-8"><h1>Develop</h1></div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8">
+              <h2>UI and styling improvements based on testing</h2>
+              <p>I made final improvements to reflect the suggested changes:&nbsp;</p>
+              <ul>
+                <li>updated styling on audio UI makes functionality more obvious</li>
+                <li>Horizontal page navigation with label makes navigation more obvious</li>
+                <li>Updated color scheme increases contrast, legibility, visual interest</li>
+              </ul>
+              <div class="row">
+                <div class="col"><img src="img/fotonovela/prototype-final.png" class="img-fluid" alt="..." /></div>
+              </div>
+              <h2>Final prototype</h2>
+              <p>The final prototype reflects all recommended changes from usability and preference testing.</p>
+              <div class="row mb-5">
+                <div class="col"><img src="img/fotonovela/prototype-gif.gif" class="img-fluid" alt="..." /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="conclusion">
+        <div class="container pt-5 pb-5">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8">
+              <h1>Next steps</h1>
+              <p>
+                The obvious next step for this project would be handoff to developers. In this case, there is no developer
+                available, so I will need to build out the site myself to move the project forward. I&rsquo;ll update here on
+                any progress made.&nbsp;
+              </p>
+              <p>Appealing additional upgrades would be those features that serve to build community, such as:</p>
+              <ul>
+                <li>buttons for sharing to social media;</li>
+                <li>an ability to add comments;</li>
+                <li>a calendar of community events,</li>
+                <li>a searchable database of local organizations and resources</li>
+              </ul>
+              <h1 class="pt-5">Final Thoughts</h1>
+              <p>
+                I learned from this project that foundational research is the most important stage in design (and it&rsquo;s
+                where I want to hang my hat as an experience designer and user researcher).&nbsp;
+              </p>
+              <p>
+                Primary research was difficult and labor-intensive. However, if I had settled for desk research alone, the
+                problem would have been ill-defined. And no solution can solve a problem that is the wrong problem to begin
+                with.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-center text-whitish">
+      <div class="container d-flex justify-content-center pb-4">
+        <a class="nav-item nav-link" href="#">Email</a> <a class="nav-item nav-link" href="#">Twitter</a>
+      </div>
+    </footer>
+  </body>
+</html>

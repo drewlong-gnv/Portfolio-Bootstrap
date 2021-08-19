@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BS Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      .navbar,
+      .navbar-dark,
+      .bg-dark {
+        background-color: #1b4259 !important;
+      }
+      .jumbotron {
+        width: 100%;
+        color: #f8f8f8;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      /* .container-fluid {
+        background-color: #1b4259;
+      } */
+      .card {
+        border: none;
+        max-width: 400px;
+      }
+      .card-header,
+      .card-footer {
+        background-color: white;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand"
+          ><img src="https://drive.google.com/uc?id=1BITCN3NZOf_AmTherrxWlsj3_0eDEF0e" style="max-width:60px;" />Drew Long</a
+        >
+
+        <div class="collapse navbar-collapse justify-content-end" id="myTogglerNav">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">Work</a> <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Writing</a>
+          </div>
+          <!-- navbar -->
+        </div>
+        <!-- collapse -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#myTogglerNav"
+          aria-controls="myTogglerNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="position: absolute; margin: 10px; right: 0; top: 0;"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <!-- end container -->
+    </nav>
+    <!-- end nav -->
+    <div class="bg">
+      <div class="container-fluid">
+        <div class="row justify-content-sm-center pt-5 mb-5">
+          <div class="col-sm-10 col-md-8 col-xl-6">
+            <p class="card-subtitle text-muted pb-2">UX PROJECTS / MOBILE PROTOTYPE</p>
+            <h1 class="display-1 pb-2">Lexical</h1>
+            <p class="display-6">
+              Lexical is a learning app for medical terminology inspired by the principal of associative learning.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-sm-center">
+          <div class="col-sm-10 col-md-8 col-xl-6"><img class="img-fluid" src="img/Wireframes-flow 1.png" alt="Lexical case study cover" /></div>
+        </div>
+      </div>
+    </div>
+    <!-- end hero -->
+    <main class="container-fluid">
+      <div class="row justify-content-md-center">
+        <div class="col-md-8 col-lg-6">
+        <div class="row pt-5 pb-5">
+          <div class="col-12 col-md-6 col-xl-3 mb-5">
+            <h3>ROLES</h3>
+            <span>UX Research, Ideation, Wireframing, Prototyping, Usability Testing</span>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 mb-5">
+            <h3>TOOLS</h3>
+            <span>Butcher paper and markers, Pop by Marvel, Excel, Diagrams.net, Adobe XD</span>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 mb-5">
+            <h3>DURATION</h3>
+            <span>One month</span>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 mb-5">
+            <h3>PROJECT TYPE</h3>
+            <span>Student project</span>
+          </div>
+        </div>
+        <div class="mb-5">
+          <h1>Overview</h1>
+          <p>My first UX project, the assignment was to design and test the prototype for a vocabulary learning app for mobile devices. The prototype was low-fidelity by design, to avoid getting hung up in unfamiliar design software. </p>
+        </div>
+        </div>
+      </div>
+        <div class="container-fluid bg-dark text-white-ish pt-5 pb-5"> <!------Dark background section-->
+          <div class="row justify-content-sm-center">
+            <div class="col-sm-10 col-md-8 col-xl-6">
+            <h1>Problem</h1>
+            <p class="mb-5">Career professionals in technical fields are continuously learning jargon and technical language, especially in healthcare settings. Web searches are easily forgotten and don’t leave a trace. Context, however, is everything.</p>
+            <h1>Challenge</h1>
+            <p class="mb-5">
+              How can we design a learning app based on associating terminology with user notes and contextual indicators?
+            </p>
+            <h1>Solution</h1>
+            <p class="mb-5">
+              Lexical is a mobile app that allows healthcare professionals to build a customized reference of relevant terminology that incorporates: 
+              <ul>
+                <li>user-entered definitions;</li>
+                <li>images;</li>
+                <li>contextually appropriate tags, e.g., location, name(s), date/time</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        </div> <!------End dark background-ed section: Problem, Challenge, Solution-->   
+        <div class="row mt-5 justify-content-sm-center">
+          <div class="col-sm-10 col-md-8 col-xl-6">
+            <h1>Research</h1>
+            <p>Competitive analysis of vocabulary learning apps suggesting integration of the following key features:
+            <ul class="mb-4">
+              <li>intuitive and familiar interface with minimal onboarding</li>
+              <li>fully and immediately functional to first-time users</li>
+            </ul>
+            <img class="img-fluid" src="img/Competitive analysis images@2x.png" alt="Competitive analysis"/>
+            </p>
+            <p>In user interviews and surveys, health science professionals described the challenge of learning terminology at work. Most indicated the lack of any system for doing so.
+            </p>
+            <p>
+            A proto-persona was developed based on user research.
+            </p>
+            <img class="img-fluid" src="img/Giselle-persona.png" alt="Persona-Giselle" />
+            <h1 class="mt-4">Design</h1>
+            <p>This was my first UX moment feeling like I was in a groove:
+              <br><br>
+              The concept of information architecture just clicked. I could visualize the user flows and "happy path" before putting anything on paper. 
+              </p>
+              <img class="img-fluid mb-4" src="img/User flows.png" alt="User flows" />
+              <p>
+                The wireframes practically drew themselves, so clear was my conception of this app and its fundamental premise - a constructivist approach to learning. Digitally, that looks like: 
+                <ol>
+                  <li>new user opens app to a clean but empty UI</li>
+                  <li>user adds content: terminology, notes, images</li>
+                  <li>user builds associations between terms and notes using tags (e.g., people, place, date)</li>
+                </ol>
+              </p>
+              <img class="img-fluid mt-3 mb-4" src="img/Wireframes-flow 1.png" alt="Wireframes-flow 1" />
+              <p>
+                I built a low-fidelity prototype incorporating the hand drawn wireframes using Marvel. I was surprised how easy this was. In fact, I quickly saw that the app was insufficiently realized to simulate the user freedom and complex interactions that are fundamental to the app. So I drew additional frames and added them to the prototype.
+              </p>
+              <h1>Evaluation</h1>
+              <p>
+
+              </p>
+          </div>
+        </div>
+    </main>
+<footer class="bg-dark text-center text-whitish">
+      <div class="container d-flex justify-content-center pb-4">
+        <a class="nav-item nav-link" href="#">Email</a> <a class="nav-item nav-link" href="#">Twitter</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+body,
+html {
+  height: 100%;
+}
+body {
+  color: #194159;
+  background-color: white;
+}
+footer.nav-item {
+  color: #f9f6f0;
+}
+footer.nav-link {
+  color: #f9f6f0;
+}
+.bg {
+  /* The image used */
+  background-image: url(img/wood-grain.png);
+
+  /* Full height */
+  height: 95%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-fotonovela {
+  /* The image used */
+  background-image: url(img/fotonovela/fotonovela-hero.png);
+  /* Full height */
+  height: 90%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-hp {
+  background-image: url(img/Classroom-flipped-colors-dimensions.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-white-ish {
+  background-color: #f9f6f0;
+}
+.bg-secondary {
+  background-color: #1b4259;
+}
+.text-white-ish {
+  color: #f9f6f0;
+}
+/* Font */
+.display-1 {
+  font-family: "psfournier-std";
+}
+.card-subtitle {
+  margin-top: -1.5rem;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  .card-subtitle {
+    font-size: 1.5rem;
+  }
+}
+body {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-family: psfournier-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* Section specific styles */
+.approach {
+  background-color: #194159;
+}
+.white-text {
+  color: #f8f8f8;
+}
+
+#conclusion {
+  background-color: #e3e9ed;
+}
+.container {
+  padding: 1rem 0rem;
+}
+.timeline {
+  max-width: 600px;
+}
+.section-heading {
+  color: #f8f8f8;
+  background-color: #194159;
+  text-transform: uppercase;
+  font-family: "psfournier-std", serif;
+}
